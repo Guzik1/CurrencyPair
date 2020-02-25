@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Sebastian Guzik</Authors>
+    <Product />
+    <Description>Currency pair for c#/.Net
+For examples and documentation view repository.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Sebastian Guzik</Copyright>
+    <RepositoryUrl>https://github.com/Guzik1/CurrencyPair</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
