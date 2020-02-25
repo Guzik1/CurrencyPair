@@ -33,6 +33,105 @@
         <member name="F:CurrencyPair.Currency.DASH">
             <summary>Dash</summary>
         </member>
+        <member name="F:CurrencyPair.Currency.XRP">
+            <summary>Ripple</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.ZEC">
+            <summary>Zcash</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BCC">
+            <summary>Bitcoin cash</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.LTC">
+            <summary>Litecoin</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.LSK">
+            <summary>Lisk</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.GAME">
+            <summary>Game credits</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BTG">
+            <summary>Bitcoin gold</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.KZC">
+            <summary>KzCash</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.XIN">
+            <summary>Infinty economics</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.GNT">
+            <summary>Golem</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.OMG">
+            <summary>OmiseGO</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.FTO">
+            <summary>FuturoCoin</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.REP">
+            <summary>Augur</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.ZRX">
+            <summary>0x</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.PAY">
+            <summary>TenX</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BAT">
+            <summary>Basic Attention Token</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.NEU">
+            <summary>Neumark</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.TRX">
+            <summary>Tron</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.AMLT">
+            <summary>AMLT</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.EXY">
+            <summary>Experty</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BOB">
+            <summary>Bob's repair</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.LML">
+            <summary>Lisk machine learning</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BSV">
+            <summary>Bitcoin SV</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BCP">
+            <summary>Blockchain poland</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.XBX">
+            <summary>Bitex global XBX coin</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.XLM">
+            <summary>Stellar</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.ALG">
+            <summary>Algory</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.LINK">
+            <summary>Chainlink</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.MKR">
+            <summary>Maker</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.NPXS">
+            <summary>Pundi X</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.SRN">
+            <summary>Sirin Labs</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.GGC">
+            <summary>Global game coin</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.USDC">
+            <summary>USD coin</summary>
+        </member>
         <member name="T:CurrencyPair.Pair">
             <summary>
             Currency pair.
