@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CurrencyPair</name>
+    </assembly>
+    <members>
+        <member name="T:CurrencyPair.Currency">
+            <summary>
+            List of real/fiat and crypto currency.
+            </summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.USD">
+            <summary>United States dollar</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.EURO">
+            <summary>Euro</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.GBP">
+            <summary>Pound sterling</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.PLN">
+            <summary>Polish zloty</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.BTC">
+            <summary>Bitcoin</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.ETH">
+            <summary>Etherum</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.ETC">
+            <summary>Etherum clasic</summary>
+        </member>
+        <member name="F:CurrencyPair.Currency.DASH">
+            <summary>Dash</summary>
+        </member>
+        <member name="T:CurrencyPair.Pair">
+            <summary>
+            Currency pair.
+            </summary>
+        </member>
+        <member name="M:CurrencyPair.Pair.#ctor(CurrencyPair.Currency,CurrencyPair.Currency)">
+            <summary>
+            Inicjalize pair from two currency.
+            </summary>
+            <param name="first">First currency.</param>
+            <param name="second">Second currency.</param>
+        </member>
+        <member name="M:CurrencyPair.Pair.#ctor(System.String)">
+            <summary>
+            Inicjalize pair from marekt string.
+            </summary>
+            <param name="marketCode">Code to convert.</param>
+        </member>
+        <member name="P:CurrencyPair.Pair.GetFirstCurrency">
+            <summary>
+            Get first currency in pair.
+            </summary>
+        </member>
+        <member name="P:CurrencyPair.Pair.GetSecondCurrency">
+            <summary>
+            Get second currency in pair.
+            </summary>
+        </member>
+        <member name="M:CurrencyPair.Pair.ToString">
+            <summary>
+            Convert pair to string.
+            </summary>
+            <returns>Pair string, format first + second (firstsecond)</returns>
+        </member>
+        <member name="M:CurrencyPair.Pair.ToStringWithDash">
+            <summary>
+            Convert pair to string with dash.
+            </summary>
+            <returns>Pair string, format first + "-" + second (first-second)</returns>
+        </member>
+        <member name="M:CurrencyPair.Pair.ToStringWithLowerDash">
+            <summary>
+            Convert pair to string with lower dash.
+            </summary>
+            <returns>Pair string, format first + "_" + second (first_second)</returns>
+        </member>
+    </members>
+</doc>
