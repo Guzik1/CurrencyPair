@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CurrencyPair
 {
-    internal static class CurrencyParse
+    internal static class CurrencyParser
     {
         internal static TypeOfEnum Parse<TypeOfEnum>(string name) where TypeOfEnum : Enum
         {

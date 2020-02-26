@@ -65,8 +65,8 @@ namespace CurrencyPair
 
         void ParseCurrency(string firstString, string secondString)
         {
-            first = CurrencyParse.Parse<Currency>(firstString);
-            second = CurrencyParse.Parse<Currency>(secondString);
+            first = CurrencyParser.Parse<Currency>(firstString);
+            second = CurrencyParser.Parse<Currency>(secondString);
         }
 
         void TryParseOneFourSignCurrencyCurrency(string marketCode, bool fourSignCurrencyInAFirstPosition)

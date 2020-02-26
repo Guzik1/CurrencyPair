@@ -10,6 +10,8 @@ For examples and documentation view repository.</Description>
     <Copyright>Sebastian Guzik</Copyright>
     <RepositoryUrl>https://github.com/Guzik1/CurrencyPair</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/Guzik1/CurrencyPair</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
