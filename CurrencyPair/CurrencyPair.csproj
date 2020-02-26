@@ -5,13 +5,17 @@
     <Authors>Sebastian Guzik</Authors>
     <Product />
     <Description>Currency pair for c#/.Net
-For examples and documentation view repository.</Description>
+For code examples and documentation view repository.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Sebastian Guzik</Copyright>
     <RepositoryUrl>https://github.com/Guzik1/CurrencyPair</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/Guzik1/CurrencyPair</PackageProjectUrl>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <Version>1.2.0</Version>
+    <PackageTags>Currency pair, Pair, Currency</PackageTags>
+    <PackageReleaseNotes />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

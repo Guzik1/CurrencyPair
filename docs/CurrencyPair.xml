@@ -132,6 +132,41 @@
         <member name="F:CurrencyPair.Currency.USDC">
             <summary>USD coin</summary>
         </member>
+        <member name="T:CurrencyPair.CurrencyExtension">
+            <summary>
+            Extension method to Currency enum.
+            </summary>
+        </member>
+        <member name="M:CurrencyPair.CurrencyExtension.Parse(System.String)">
+            <summary>
+            Parse string name to Currency enum.
+            </summary>
+            <param name="name">String to parse.</param>
+            <returns>Currency enumeration.</returns>
+        </member>
+        <member name="T:CurrencyPair.CurrencyType">
+            <summary>
+            Currency type enumerator.
+            </summary>
+        </member>
+        <member name="F:CurrencyPair.CurrencyType.CRYPTO">
+            <summary> Crypto currency </summary>
+        </member>
+        <member name="F:CurrencyPair.CurrencyType.FIAT">
+            <summary> Real/fiat currency  </summary>
+        </member>
+        <member name="T:CurrencyPair.CurrencyTypeExtension">
+            <summary>
+            Extension method to CurrencyType enum.
+            </summary>
+        </member>
+        <member name="M:CurrencyPair.CurrencyTypeExtension.Parse(System.String)">
+            <summary>
+            Parse string name to CurrencyType
+            </summary>
+            <param name="name">String to parse.</param>
+            <returns>Currency type.</returns>
+        </member>
         <member name="T:CurrencyPair.Pair">
             <summary>
             Currency pair.

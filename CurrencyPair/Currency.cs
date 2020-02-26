@@ -97,4 +97,20 @@ namespace CurrencyPair
 
         // TODO: Add more currency.
     }
+
+    /// <summary>
+    /// Extension method to Currency enum.
+    /// </summary>
+    public static class CurrencyExtension
+    {
+        /// <summary>
+        /// Parse string name to Currency enum.
+        /// </summary>
+        /// <param name="name">String to parse.</param>
+        /// <returns>Currency enumeration.</returns>
+        public static Currency Parse(string name)
+        {
+            return CurrencyParser.Parse<Currency>(name);
+        }
+    }
 }
